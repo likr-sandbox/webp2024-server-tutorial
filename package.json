@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
     "serve": "netlify functions:serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "netlify-cli": "^17.37.2"
+    "@vitejs/plugin-react": "^4.3.3",
+    "netlify-cli": "^17.37.2",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
